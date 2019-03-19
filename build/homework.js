@@ -60,7 +60,7 @@ var NewsUSA;
         constructor() {
             this.apiurl = 'https://news_api_usa_url';
         }
-        getNews() { } // method
+        getNews() { }
     }
     NewsUSA.NewsService = NewsService;
 })(NewsUSA || (NewsUSA = {}));
@@ -71,8 +71,8 @@ var NewsUkraine;
         constructor() {
             this.apiurl = 'https://news_api_2_url';
         }
-        getNews() { } // method get all news
-        addToFavorite() { } // method add to favorites
+        getNews() { }
+        addToFavorite() { }
     }
     NewsUkraine.NewsService = NewsService;
 })(NewsUkraine || (NewsUkraine = {}));

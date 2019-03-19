@@ -65,7 +65,7 @@ namespace NewsUSA {
 
     export class NewsService {
         protected apiurl: string = 'https://news_api_usa_url'
-        public getNews() {} // method
+        public getNews() {} 
     }
 }
 
@@ -83,8 +83,8 @@ namespace NewsUkraine {
 
     export class NewsService {
         protected apiurl: string = 'https://news_api_2_url'
-        public getNews() {} // method get all news
-        public addToFavorite() {} // method add to favorites
+        public getNews() {}
+        public addToFavorite() {} 
     }
 }
 
